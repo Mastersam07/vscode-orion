@@ -1,0 +1,120 @@
+{
+  "Function Declaration": {
+    "prefix": "fun",
+    "body": [
+      "fun ${1:functionName}(${2:params}) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Create a new function"
+  },
+  "Class Declaration": {
+    "prefix": "class",
+    "body": [
+      "class ${1:ClassName} {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Create a new class"
+  },
+  "If Statement": {
+    "prefix": "if",
+    "body": [
+      "if (${1:condition}) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Create an if statement"
+  },
+  "If-Else Statement": {
+    "prefix": "ifelse",
+    "body": [
+      "if (${1:condition}) {",
+      "\t$2",
+      "} else {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Create an if-else statement"
+  },
+  "If-ElseIf-Else Statement": {
+    "prefix": "ifelseif",
+    "body": [
+      "if (${1:condition}) {",
+      "\t$2",
+      "} elseif (${3:condition}) {",
+      "\t$4",
+      "} else {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Create an if-elseif-else statement"
+  },
+  "While Loop": {
+    "prefix": "while",
+    "body": [
+      "while (${1:condition}) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Create a while loop"
+  },
+  "For Loop": {
+    "prefix": "for",
+    "body": [
+      "for (${1:initialization}; ${2:condition}; ${3:increment}) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Create a for loop"
+  },
+  "Variable Declaration": {
+    "prefix": "var",
+    "body": "var ${1:name} = ${2:value};",
+    "description": "Declare a new variable"
+  },
+  "Print Statement": {
+    "prefix": "print",
+    "body": "print(${1:text});",
+    "description": "Print text to console"
+  },
+  "Print Line": {
+    "prefix": "println",
+    "body": "println(${1:text});",
+    "description": "Print text to console with newline"
+  },
+  "Return Statement": {
+    "prefix": "return",
+    "body": "return ${1:value};",
+    "description": "Return a value from function"
+  },
+  "Array Declaration": {
+    "prefix": "array",
+    "body": "[${1:element1}, ${2:element2}]",
+    "description": "Create a new array"
+  },
+  "Map Declaration": {
+    "prefix": "map",
+    "body": "{${1:key1}: ${2:value1}, ${3:key2}: ${4:value2}}",
+    "description": "Create a new map"
+  },
+  "Anonymous Function": {
+    "prefix": "anon",
+    "body": [
+      "fun(${1:params}) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Create an anonymous function"
+  },
+  "Break Statement": {
+    "prefix": "break",
+    "body": "break;",
+    "description": "Break out of a loop"
+  },
+  "Continue Statement": {
+    "prefix": "continue",
+    "body": "continue;",
+    "description": "Continue to next iteration of loop"
+  }
+} 
