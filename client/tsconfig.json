@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out/client",
+    "rootDir": "."
+  },
+  "references": [
+    {
+      "path": "../server"
+    }
+  ]
+} 
